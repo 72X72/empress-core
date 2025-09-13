@@ -20,11 +20,12 @@ jobs:
           java-version: '17'
 
       - name: Decode Keystore
-        run: |
-          echo "${{ secrets.KEYSTORE_FILE }}" | base64 -d > empress.keystore
+        run: echo "${{ secrets.KEYSTORE_FILE }}" | base64 -d > empress.keystore
 
       - name: Build APK
-        run: ./gradlew assembleRelease
+        run: |
+          chmod +x ./gradlew
+          ./gradlew assembleRelease
 
       - name: Sign APK
         run: |
