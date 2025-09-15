@@ -1,0 +1,27 @@
+[
+  {
+    "repo": "empress-core",
+    "url": "https://github.com/72X72/empress-core.git",
+    "fragments": [
+      "mutation.log",
+      "soldiers",
+      "daemons",
+      "empress.keystore",
+      "narration"
+    ]
+  },
+  {
+    "repo": "EMPRESS72",
+    "url": "https://github.com/72X72/EMPRESS72.git",
+    "fragments": [
+      "soldiers"
+    ]
+  },
+  {
+    "repo": "New-EMPRESS-",
+    "url": "https://github.com/72X72/New-EMPRESS-.git",
+    "fragments": [
+      "soldiers"
+    ]
+  }
+]
